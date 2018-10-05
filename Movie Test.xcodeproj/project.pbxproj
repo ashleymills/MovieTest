@@ -30,7 +30,6 @@
 		CA9A36D92167733A0009030E /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A36D82167733A0009030E /* Identifier.swift */; };
 		CA9A36DB216776080009030E /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A36DA216776080009030E /* MovieViewController.swift */; };
 		CA9A36DD2167781C0009030E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A36DC2167781C0009030E /* Movie.swift */; };
-		CA9A36DF21677CA80009030E /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9A36DE21677CA80009030E /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +70,6 @@
 		CA9A36D82167733A0009030E /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		CA9A36DA216776080009030E /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		CA9A36DC2167781C0009030E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		CA9A36DE21677CA80009030E /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,12 +135,10 @@
 			isa = PBXGroup;
 			children = (
 				CA9A36BD21675C200009030E /* AppDelegate.swift */,
-				CA9A36DE21677CA80009030E /* UIApplication.swift */,
 				CA9A36CC216761280009030E /* Model */,
 				CA9A36D2216762D80009030E /* Views */,
 				CA9A36C321675D2A0009030E /* ViewControllers */,
 				CA9A36CF2167613B0009030E /* Protocols */,
-				CA9A36D72167640A0009030E /* Extensions */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -189,13 +185,6 @@
 				CA9A36D0216762B60009030E /* MovieCell.swift */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		CA9A36D72167640A0009030E /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +309,6 @@
 				CA4B250B21678D7300D960FA /* Collection.swift in Sources */,
 				CA9A36BF21675C200009030E /* Result.swift in Sources */,
 				CA9A36CE216761380009030E /* ViewControllerAlerting.swift in Sources */,
-				CA9A36DF21677CA80009030E /* UIApplication.swift in Sources */,
 				CA9A36DD2167781C0009030E /* Movie.swift in Sources */,
 				CA9A36C121675C200009030E /* WebService.swift in Sources */,
 				CA9A36C221675C200009030E /* AppDelegate.swift in Sources */,
