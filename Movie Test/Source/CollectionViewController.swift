@@ -17,6 +17,8 @@ class CollectionViewController: UICollectionViewController, ViewControllerAlerti
 
     func configure(collection: CollectionSummary) {
         self.collection = collection
+        
+        navigationItem.title = collection.name
     }
     
     override func viewDidLoad() {
